@@ -8,7 +8,7 @@ This function call the Auth0 Management API (v2) to get all the rules that are c
 
 ## Assumption
 
-This demo function based on the assumption that in the JavaScript snippets in the rule has the client name check in the form of ```JavaScript if (context.client === <client name>)```. Function parse specifically for the text **contex.client** and then the client name in quotes.
+This demo function based on the assumption that in the JavaScript snippets in the rule has the client name check in the form of ``` if (context.client === <client name>)```. Function parse specifically for the text **contex.client** and then the client name in quotes.
 
 ## Modification required
 In the beginning of the function there are 2 variables, namely **url** and **token**.
