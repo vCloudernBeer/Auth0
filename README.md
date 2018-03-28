@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This function call the Auth0 Management API (v2) to get all the rules that are configured for a tenant/domain and to figure out which client is associated to which rule. Output will be in this form at the webpage: ``` [{"rule":"Whitelist","clientName":"test1"},{"rule":"Allow Access during weekdays for a specific App","clientName":"test2"}]```
+This function calls the Auth0 Management API (v2) to get all the rules that are configured for a tenant/domain and to figure out which client is associated to which rule. Output will be in this form at the webpage: ``` [{"rule":"Whitelist","clientName":"test1"},{"rule":"Allow Access during weekdays for a specific App","clientName":"test2"}]```
 
 
 
